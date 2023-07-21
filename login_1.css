@@ -1,0 +1,32 @@
+body{
+
+}
+.page{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-image: url(backgrond.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.page1{
+  flex-grow: 1;
+}
+.page2{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  background-color: white;
+}
+.icon{
+  height: 64px;
+  width: 64px;
+}
+.earth{
+  height: 100px;
+  width: 100px;
+}
+.astronaut{
+  height: 100px;
+}

@@ -48,11 +48,14 @@ table {
 }
 
 
+
+
 body{
   width: 100%;
   height: 100vh;
 }
 .page{
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -67,12 +70,22 @@ body{
 .page2{
   display: flex;
   flex-direction: column;
-  flex-grow: 2;
+  flex-grow: 4;
   background-color: white;
 }
-.page1 > p{
+.header {
+  width: 100%;
+    padding-top: 40px;
+}
+.header > p{
+  width: 339px;
   color: white;
-  padding-left: 40px;
+  font-size: 30px;
+}
+.header span {
+  display: block;
+  text-align: center;
+  padding-left: 120px;
 }
 .icon{
   height: 64px;
@@ -87,3 +100,4 @@ body{
 .astronaut{
   height: 100px;
 }
+
